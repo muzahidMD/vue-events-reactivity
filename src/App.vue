@@ -87,11 +87,12 @@ function clickMe() {
               <h3>Chamber reached do he nothing be?</h3>
             </div>
             <!-- Content -->
-            <!-- <div class="accordion-content px-5 pt-0 text-left pb-5" :class="accordionIndex == 3 ? '' : 'hidden'"> -->
             <div class="accordion-content px-5 pt-0 text-left pb-5" v-show="accordionIndex == 3">
+              <!-- <div class="accordion-content px-5 pt-0 text-left pb-5" :class="accordionIndex == 3 ? '' : 'hidden'"> -->
               <p class="leading-6 font-light pl-9">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam minima maiores magni dolore qui
-                architecto pariatur incidunt repellat quos hic? Eius, eveniet accusantium! Quisquam, quo. Vitae ipsum ad
+                architecto pariatur incidunt repellat quos hic? Eius, eveniet accusantium! Quisquam, quo. Vitae ipsum
+                ad
                 veritatis commodi quasi expedita!
               </p>
             </div>
